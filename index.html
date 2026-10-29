@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>التقرير الرسمي لحضور اجتماعات القطاعات | يوليو – أكتوبر 2026</title>
+<style>
+:root{--bg:#070b1a;--card:#0f1630;--line:#222c55;--tx:#e8ecff;--mu:#97a3d6;--g:#22d3a0;--r:#ff5d73;--b:#4f8cff;--y:#ffc857;--p:#a78bfa}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:"Segoe UI",Tahoma,"Cairo",sans-serif;background:radial-gradient(circle at 20% 0,#14214d 0,var(--bg) 45%);color:var(--tx);line-height:1.9;overflow-x:hidden}
+nav{position:sticky;top:0;z-index:9;background:#070b1acc;backdrop-filter:blur(10px);border-bottom:1px solid var(--line);display:flex;gap:6px;overflow-x:auto;padding:10px 14px}
+nav a{color:var(--mu);text-decoration:none;white-space:nowrap;padding:4px 12px;border-radius:20px;font-size:14px}
+nav a:hover{background:var(--b);color:#fff}
+.bar{height:3px;position:fixed;top:0;right:0;background:linear-gradient(90deg,var(--g),var(--b),var(--p));z-index:10;width:0}
+.ticker{background:#0b1230;border-bottom:1px solid var(--line);overflow:hidden;white-space:nowrap;padding:8px 0}
+.ticker div{display:inline-block;animation:mq 40s linear infinite;padding-right:100%}
+.ticker span{margin:0 26px;font-weight:700}
+@keyframes mq{to{transform:translateX(100%)}}
+.up{color:var(--g)}.dn{color:var(--r)}
+.hero{min-height:88vh;display:grid;place-items:center;text-align:center;padding:50px 18px;position:relative;overflow:hidden}
+.orb{position:absolute;border-radius:50%;filter:blur(70px);opacity:.35;animation:fl 9s ease-in-out infinite}
+.o1{width:360px;height:360px;background:var(--b);top:-80px;left:-60px}
+.o2{width:300px;height:300px;background:var(--p);bottom:-60px;right:-40px;animation-delay:-4s}
+.o3{width:220px;height:220px;background:var(--g);top:40%;left:45%;animation-delay:-2s}
+@keyframes fl{50%{transform:translate(40px,-50px) scale(1.2)}}
+.hero h1{font-size:clamp(28px,6vw,58px);background:linear-gradient(90deg,#fff,var(--y),var(--g));-webkit-background-clip:text;color:transparent;background-size:200%;animation:sh 6s linear infinite}
+@keyframes sh{to{background-position:200%}}
+.hero p{color:var(--mu);max-width:720px;margin:14px auto}
+.badge{display:inline-block;border:1px solid var(--y);color:var(--y);padding:2px 16px;border-radius:30px;margin-bottom:14px;animation:pl 2.5s infinite}
+@keyframes pl{50%{box-shadow:0 0 22px #ffc85755}}
+.credits{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin-top:28px;position:relative}
+.person{background:#0f1630cc;border:1px solid var(--line);border-radius:20px;padding:20px 26px;min-width:240px;transition:.3s}
+.person:hover{transform:translateY(-8px);border-color:var(--y)}
+.person img,.person svg{width:130px;height:130px;border-radius:50%;object-fit:cover;object-position:top;border:3px solid var(--y);display:block;margin:0 auto 10px;animation:ring 3s infinite}
+@keyframes ring{50%{box-shadow:0 0 0 12px #ffc85722}}
+.person small{color:var(--mu);display:block}.person b{font-size:19px}
+section{max-width:1150px;margin:auto;padding:60px 18px}
+h2{font-size:30px;margin-bottom:6px}
+h2:before{content:"";display:inline-block;width:8px;height:30px;background:linear-gradient(var(--b),var(--g));border-radius:4px;margin-left:12px;vertical-align:middle}
+.sub{color:var(--mu);margin-bottom:26px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:linear-gradient(160deg,var(--card),#0b1128);border:1px solid var(--line);border-radius:18px;padding:22px;transition:.3s;position:relative;overflow:hidden}
+.card:hover{transform:translateY(-5px);border-color:var(--b);box-shadow:0 12px 40px #4f8cff22}
+.kpi .n{font-size:44px;font-weight:800}.kpi .t{color:var(--mu)}
+.kpi .em{position:absolute;left:16px;top:12px;font-size:34px;animation:bn 2s infinite}
+@keyframes bn{50%{transform:translateY(-9px)}}
+.rv{opacity:0;transform:translateY(40px);transition:1s}.rv.in{opacity:1;transform:none}
+.bars{display:flex;align-items:flex-end;gap:10px;height:260px;padding:10px;border-bottom:1px solid var(--line);overflow-x:auto}
+.col{flex:1;min-width:54px;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%}
+.col i{width:100%;border-radius:8px 8px 0 0;height:0;transition:height 1.6s cubic-bezier(.2,.9,.3,1);position:relative}
+.col em{font-style:normal;font-size:13px;font-weight:700;margin-bottom:3px}
+.col u{font-size:11px;color:var(--mu);text-decoration:none;margin-top:5px;writing-mode:horizontal-tb}
+.in .col i{height:var(--h)}
+.stk{display:flex;flex-direction:column;justify-content:flex-end;width:100%;height:0;transition:height 1.6s}
+.in .stk{height:var(--h)}
+.stk s{display:block;text-decoration:none;text-align:center;font-size:12px}
+.two{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.donut{text-align:center}
+.donut svg{width:190px;height:190px;transform:rotate(-90deg)}
+.donut circle{fill:none;stroke-width:22;stroke-dasharray:0 999;transition:stroke-dasharray 2s}
+.legend span{margin:0 8px;font-size:14px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{background:#16204a;padding:10px;text-align:right}
+td{padding:9px 10px;border-bottom:1px solid var(--line)}
+tr:hover td{background:#16204a66}
+.tw{overflow-x:auto;border-radius:14px;border:1px solid var(--line)}
+.pb{background:#1b2550;border-radius:20px;height:12px;min-width:110px;overflow:hidden}
+.pb b{display:block;height:100%;width:0;border-radius:20px;transition:width 1.8s;background:linear-gradient(90deg,var(--r),var(--y),var(--g));background-size:var(--bs) 100%}
+.in .pb b{width:var(--w)}
+.tag{padding:2px 12px;border-radius:20px;font-size:12px;font-weight:700}
+.t-g{background:#22d3a022;color:var(--g)}.t-r{background:#ff5d7322;color:var(--r)}.t-y{background:#ffc85722;color:var(--y)}.t-x{background:#97a3d622;color:var(--mu)}
+.line svg{width:100%;height:auto}
+.line path{fill:none;stroke-width:4;stroke-linecap:round;stroke-dasharray:1200;stroke-dashoffset:1200;transition:stroke-dashoffset 3s}
+.in .line path{stroke-dashoffset:0}
+.line text{fill:var(--mu);font-size:13px}
+.tl{border-right:3px solid var(--line);padding-right:26px;margin-right:10px}
+.tl div{position:relative;margin-bottom:26px}
+.tl div:before{content:"";position:absolute;right:-37px;top:8px;width:18px;height:18px;border-radius:50%;background:var(--b);box-shadow:0 0 0 6px #4f8cff33;animation:pl 2s infinite}
+.rec{border-right:5px solid var(--g)}.rec.w{border-color:var(--y)}.rec.d{border-color:var(--r)}
+.rec h3{margin-bottom:6px}
+.video{aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:#000;border:1px solid var(--line)}
+.video video,.video iframe{width:100%;height:100%;border:0}
+.fake{width:100%;height:100%;display:grid;place-items:center;text-align:center;background:linear-gradient(120deg,#14214d,#3a1c71,#0b6e5a,#14214d);background-size:300%;animation:sh2 8s linear infinite;color:#fff;padding:20px}
+@keyframes sh2{to{background-position:300%}}
+.pulse{width:84px;height:84px;border-radius:50%;background:#fff;color:#14214d;display:grid;place-items:center;font-size:34px;margin:0 auto 10px;animation:pl2 1.8s infinite}
+@keyframes pl2{0%{box-shadow:0 0 0 0 #fff8}100%{box-shadow:0 0 0 40px #fff0}}
+.gal{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}.gal figure:nth-child(7n+1){grid-row:span 2}.gal figure:nth-child(7n+1) img{height:100%}
+.gal img{width:100%;height:170px;object-fit:cover;border-radius:14px;transition:.4s;background:linear-gradient(135deg,#1c2a5e,#0c6e5a)}
+.gal img:hover{transform:scale(1.06) rotate(-1deg)}
+.float{position:fixed;font-size:24px;pointer-events:none;animation:rise 7s linear forwards;z-index:1;opacity:.8}
+@keyframes rise{from{transform:translateY(0)}to{transform:translateY(-110vh) rotate(40deg)}}
+footer{text-align:center;color:var(--mu);padding:40px 14px;border-top:1px solid var(--line)}
+
+#pc{position:fixed;inset:0;z-index:0;pointer-events:none}
+header,section,footer,.ticker{position:relative;z-index:1}
+.glow{position:fixed;width:380px;height:380px;border-radius:50%;background:radial-gradient(#4f8cff33,transparent 65%);pointer-events:none;z-index:0;transform:translate(-50%,-50%);left:50%;top:30%}
+.bgv{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.22;mix-blend-mode:screen}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 40%,var(--bg));pointer-events:none}
+.hero>div{z-index:2}
+.card{backdrop-filter:blur(8px);background:linear-gradient(160deg,#141d42cc,#0b1128cc)}
+.card:before{content:"";position:absolute;inset:-2px;background:conic-gradient(from var(--a,0deg),transparent 70%,#4f8cff,#22d3a0,transparent);border-radius:inherit;z-index:-1;animation:spin 6s linear infinite;opacity:.55}
+.card:after{content:"";position:absolute;inset:1px;background:#0c1330;border-radius:17px;z-index:-1}
+@property --a{syntax:"<angle>";initial-value:0deg;inherits:false}
+@keyframes spin{to{--a:360deg}}
+.card{isolation:isolate}
+.shp{position:absolute;border:2px solid #ffffff22;animation:rot 18s linear infinite}
+.s1{width:120px;height:120px;top:14%;right:8%;border-radius:30%}
+.s2{width:80px;height:80px;bottom:18%;left:10%;animation-duration:12s;animation-direction:reverse}
+.s3{width:60px;height:60px;top:30%;left:20%;border-radius:50%;border-color:#ffc85755}
+@keyframes rot{to{transform:rotate(360deg) scale(1.2)}}
+.live{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.gauge{text-align:center}.gauge svg{width:100%;max-width:260px}
+.nd{transform-origin:100px 100px;transition:transform 1.2s cubic-bezier(.3,1.6,.5,1)}
+canvas.lv{width:100%;height:150px;display:block}
+.eq{display:flex;gap:4px;height:46px;align-items:flex-end;justify-content:center}
+.eq i{width:7px;background:linear-gradient(var(--g),var(--b));border-radius:3px;animation:eq 1s ease-in-out infinite alternate}
+@keyframes eq{from{height:6px}to{height:46px}}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--r);animation:pl2 1.2s infinite;margin-left:6px}
+.fx{font-size:30px;font-weight:800;font-variant-numeric:tabular-nums}
+.mq2{display:flex;overflow:hidden;gap:0;padding:14px 0;mask:linear-gradient(90deg,transparent,#000 15%,#000 85%,transparent)}
+.mq2 div{display:flex;gap:40px;padding-left:40px;animation:mq3 25s linear infinite;white-space:nowrap;font-size:20px;color:var(--mu)}
+@keyframes mq3{to{transform:translateX(100%)}}
+.gal figure{position:relative;overflow:hidden;border-radius:14px;margin:0}
+.gal figcaption{position:absolute;bottom:0;right:0;left:0;padding:10px 14px;background:linear-gradient(transparent,#000c);font-size:13px}
+.gal img{animation:kb 14s ease-in-out infinite alternate}
+@keyframes kb{to{transform:scale(1.12) translateX(-8px)}}
+.vg{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.vg video{width:100%;border-radius:16px;border:1px solid var(--line);aspect-ratio:16/9;object-fit:cover;background:#111}
+
+.bn{height:210px;border-radius:20px;margin-bottom:28px;background:linear-gradient(270deg,#070b1af2 15%,#070b1a40),var(--i,none) center/cover fixed,linear-gradient(120deg,#14214d,#0b6e5a);display:flex;align-items:center;padding:0 34px;position:relative;overflow:hidden;border:1px solid var(--line)}
+.bn b{font-size:clamp(20px,3.4vw,32px);position:relative;z-index:1;text-shadow:0 3px 18px #000}
+.bn small{display:block;color:var(--y);font-size:14px;font-weight:400}
+.bn:after,.gal figure:after,.sl:after{content:"";position:absolute;top:0;bottom:0;width:60%;left:-80%;background:linear-gradient(100deg,transparent,#ffffff2b,transparent);transform:skewX(-20deg);animation:swp 6s ease-in-out infinite}
+@keyframes swp{50%,100%{left:140%}}
+.sl{height:min(62vw,470px);border-radius:24px;overflow:hidden;position:relative;border:1px solid var(--line);background:#0c1330}
+.sl .s{position:absolute;inset:0;background:center/cover;opacity:0;transform:scale(1.05);transition:opacity 1.4s,transform 8s linear}
+.sl .s.on{opacity:1;transform:scale(1.22)}
+.sl .c{position:absolute;right:0;left:0;bottom:0;padding:50px 28px 22px;background:linear-gradient(transparent,#000d);z-index:2;font-size:22px;font-weight:700}
+.sl .c small{display:block;font-weight:400;color:var(--mu);font-size:14px}
+.sl .pg{position:absolute;top:0;right:0;height:4px;background:linear-gradient(90deg,var(--g),var(--b));z-index:3;width:0}
+.sl .dt{position:absolute;top:16px;left:18px;display:flex;gap:7px;z-index:3}
+.sl .dt i{width:10px;height:10px;border-radius:50%;background:#fff5;cursor:pointer;transition:.3s}
+.sl .dt i.on{background:var(--y);width:28px;border-radius:6px}
+.gal figure{cursor:zoom-in;box-shadow:0 8px 30px #0006}
+.gal figure:hover figcaption{padding-bottom:18px}
+.lb{position:fixed;inset:0;background:#000d;z-index:50;display:none;place-items:center;backdrop-filter:blur(6px);cursor:zoom-out}
+.lb.on{display:grid}.lb img{max-width:92vw;max-height:88vh;border-radius:14px;animation:zi .4s;box-shadow:0 0 80px #4f8cff55}
+@keyframes zi{from{transform:scale(.6);opacity:0}}
+.rv.l{transform:translateX(70px)}.rv.r{transform:translateX(-70px)}.rv.l.in,.rv.r.in{transform:none}
+@media print{nav,.ticker,.orb{display:none}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body><canvas id="pc"></canvas><div class="glow" id="gl"></div>
+<div class="bar" id="bar"></div>
+<nav>
+<a href="#top">الرئيسية</a><a href="#show">جولة مصوّرة</a><a href="#kpi">المؤشرات</a><a href="#sp">التخطيط الاستراتيجي</a><a href="#hr">الموارد البشرية</a><a href="#cmp">المقارنة</a><a href="#gaps">أوجه التقصير</a><a href="#rec">التوصيات</a><a href="#plan">خطة التحسين</a><a href="#media">الوسائط</a><a href="#notes">ملاحظات البيانات</a>
+</nav>
+<div class="ticker"><div id="tk"></div></div>
+
+<header class="hero" id="top">
+<video class="bgv" autoplay muted loop playsinline src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"></video><i class="shp s1"></i><i class="shp s2"></i><i class="shp s3"></i><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div>
+<div style="position:relative">
+<div class="badge">تقرير رسمي · الربع الثالث 2026</div>
+<h1>تقرير أداء وحضور اجتماعات القطاعات</h1>
+<p>تحليل شامل لاجتماعات قطاعي التخطيط الاستراتيجي والموارد البشرية خلال الفترة من يوليو إلى أكتوبر 2026، مع رسوم بيانية متحركة وتحديد أوجه التقصير والتوصيات وخطة التحسين.</p>
+<div class="credits">
+<div class="person">
+<img src="elsayed.jpg" alt="السيد الجوهري السيد">
+<small>إعداد</small><b>م. السيد الجوهري السيد</b>
+</div>
+<div class="person">
+<svg viewBox="0 0 100 100" aria-label="الاء فوزي"><rect width="100" height="100" fill="#cfd8dc"/><circle cx="50" cy="38" r="19" fill="#fff"/><path d="M12 100c0-26 17-40 38-40s38 14 38 40z" fill="#fff"/></svg>
+<small>المساعدة</small><b>الاء فوزي</b>
+</div>
+</div>
+</div>
+</header>
+
+<section id="show">
+<h2 class="rv">جولة مصوّرة</h2><p class="sub rv">لقطات من بيئة العمل والاجتماعات والتخطيط</p>
+<div class="sl rv" id="sl"><div class="pg" id="pg"></div><div class="dt" id="dt"></div><div class="c" id="cp"></div></div>
+</section>
+<section id="live">
+<h2 class="rv">لوحة المؤشرات الحية <span class="dot"></span></h2><p class="sub rv">مؤشرات متحركة باستمرار تعرض نسب الحضور الحقيقية</p>
+<div class="live">
+<div class="card rv gauge"><h3>التخطيط الاستراتيجي</h3><svg viewBox="0 0 200 120"><path d="M20 100A80 80 0 0 1 60 31" stroke="#ff5d73" stroke-width="16" fill="none"/><path d="M60 31A80 80 0 0 1 140 31" stroke="#ffc857" stroke-width="16" fill="none"/><path d="M140 31A80 80 0 0 1 180 100" stroke="#22d3a0" stroke-width="16" fill="none"/><g class="nd" id="n1"><path d="M100 100L100 30" stroke="#fff" stroke-width="4" stroke-linecap="round"/></g><circle cx="100" cy="100" r="9" fill="#fff"/></svg><div class="fx" id="v1">46.5%</div></div>
+<div class="card rv gauge"><h3>الموارد البشرية</h3><svg viewBox="0 0 200 120"><path d="M20 100A80 80 0 0 1 60 31" stroke="#ff5d73" stroke-width="16" fill="none"/><path d="M60 31A80 80 0 0 1 140 31" stroke="#ffc857" stroke-width="16" fill="none"/><path d="M140 31A80 80 0 0 1 180 100" stroke="#22d3a0" stroke-width="16" fill="none"/><g class="nd" id="n2"><path d="M100 100L100 30" stroke="#fff" stroke-width="4" stroke-linecap="round"/></g><circle cx="100" cy="100" r="9" fill="#fff"/></svg><div class="fx" id="v2">47.1%</div></div>
+<div class="card rv"><h3>نبض الالتزام</h3><canvas class="lv" id="lv"></canvas><div class="eq" id="eq"></div></div>
+<div class="card rv"><h3>أسهم الحضور <span class="dot"></span></h3><div id="stk"></div></div>
+</div>
+<div class="mq2"><div>📊 تخطيط استراتيجي <span>📈 حضور</span> <span>🧭 موارد بشرية</span> <span>🎯 هدف 75%</span> <span>✅ التزام</span> <span>🚀 تحسين مستمر</span> <span>📊 تخطيط استراتيجي</span> <span>📈 حضور</span> <span>🧭 موارد بشرية</span> <span>🎯 هدف 75%</span></div></div>
+</section>
+<section id="kpi">
+<h2 class="rv">المؤشرات الرئيسية</h2><p class="sub rv">ملخص الاجتماعات التي سُجّل فيها الحضور والغياب فعلياً</p>
+<div class="grid" id="kpis"></div>
+</section>
+
+<section id="sp">
+<div class="bn rv" style="--i:url(images/strategy.jpg)"><b><small>قطاع التخطيط الاستراتيجي</small>رؤية تقود القرار</b></div>
+<h2 class="rv">قطاع التخطيط الاستراتيجي</h2><p class="sub rv">نسبة الحضور = الحضور ÷ (الحضور + الغياب) لكل اجتماع</p>
+<div class="card rv"><h3>نسبة الحضور لكل اجتماع</h3><div class="bars" id="spBars"></div></div>
+<br>
+<div class="two">
+<div class="card rv donut"><h3>إجمالي الحضور والغياب</h3><svg viewBox="0 0 120 120" id="spD"></svg><div class="legend"><span class="up">● حضور 53</span><span class="dn">● غياب 61</span></div></div>
+<div class="card rv"><h3>الشرح والقراءة</h3><p>سجّل القطاع <b>11 اجتماعاً</b> ببيانات مكتملة. أفضل أداء كان في <b class="up">8 سبتمبر (81.8%)</b>، وأضعفه في <b class="dn">5 أكتوبر (22.7%)</b>. الشهر الأقوى هو سبتمبر بمتوسط 65.9%، بينما تراجع أكتوبر إلى 35.2% رغم اجتماع 23 أكتوبر الذي بلغ 60%.</p><br><p>لاحظ أن اجتماعي 2 و5 أكتوبر سجّلا 22 مشاركاً مقابل 10 في معظم الاجتماعات الأخرى، وهذا يستدعي التحقق من قائمة المدعوين.</p></div>
+</div>
+<br><div class="tw rv"><table id="spT"></table></div>
+</section>
+
+<section id="hr">
+<div class="bn rv" style="--i:url(images/team.jpg)"><b><small>قطاع الموارد البشرية</small>فريق يصنع الفرق</b></div>
+<h2 class="rv">قطاع الموارد البشرية</h2><p class="sub rv">حضور وغياب الاجتماعات المسجلة (سبتمبر – أكتوبر)</p>
+<div class="card rv"><h3>الحضور مقابل الغياب (أعمدة متراكبة)</h3><div class="bars" id="hrBars"></div></div><br>
+<div class="two">
+<div class="card rv donut"><h3>إجمالي الحضور والغياب</h3><svg viewBox="0 0 120 120" id="hrD"></svg><div class="legend"><span class="up">● حضور 48</span><span class="dn">● غياب 54</span></div></div>
+<div class="card rv"><h3>الشرح والقراءة</h3><p>سُجّل <b>7 اجتماعات</b> بالبيانات. بلغ الحضور الإجمالي <b>47.1%</b>. أقل اجتماع كان 5 أكتوبر (23.1%) ثم تحسّن تدريجياً حتى <b class="up">60% في 23 أكتوبر</b>، وهو اتجاه إيجابي واضح خلال أسبوعين (23% ← 33% ← 47% ← 50% ← 60%).</p><br><p>أما اجتماعات يوليو (3) وأغسطس (1) وأحد اجتماعات سبتمبر فلا توجد لها أرقام.</p></div>
+</div><br><div class="tw rv"><table id="hrT"></table></div>
+</section>
+
+<section id="cmp">
+<h2 class="rv">الاتجاه الشهري والمقارنة</h2><p class="sub rv">متوسط نسبة الحضور لكل شهر</p>
+<div class="card rv line"><svg viewBox="0 0 700 300" id="ln"></svg><div class="legend"><span style="color:var(--b)">● التخطيط الاستراتيجي</span><span style="color:var(--y)">● الموارد البشرية</span></div></div><br>
+<div class="grid" id="mon"></div>
+</section>
+
+<section id="gaps">
+<div class="bn rv" style="--i:url(images/meeting-room.jpg)"><b><small>التقييم</small>نقرأ الواقع بصدق</b></div>
+<h2 class="rv">أين كنا مقصرين؟</h2><p class="sub rv">قراءة صريحة للنتائج</p>
+<div class="grid">
+<div class="card rv rec d"><h3>🔻 غياب مرتفع في أكتوبر</h3><p>الاستراتيجي: 35.2% فقط، والغياب بلغ 17 من 22 في اجتماع 5 أكتوبر.</p></div>
+<div class="card rv rec d"><h3>📝 بيانات ناقصة</h3><p>معظم اجتماعات يوليو (10 من 11) وأغسطس بلا أرقام حضور، مما يمنع قياس الأداء.</p></div>
+<div class="card rv rec w"><h3>📅 ضعف الانتظام</h3><p>تكرار تاريخ 23/8 مرتين، وتاريخ 23/7/2027 يبدو خطأ كتابياً، وخانة فارغة في الموارد البشرية.</p></div>
+<div class="card rv rec w"><h3>📉 تذبذب الأداء</h3><p>ارتفع الحضور في سبتمبر ثم انخفض بحدّة في أكتوبر، فلا استقرار في الالتزام.</p></div>
+<div class="card rv rec w"><h3>👥 عدد الحضور غير ثابت</h3><p>إجمالي المدعوين يتراوح بين 4 و22 للاجتماع الواحد دون توثيق السبب.</p></div>
+<div class="card rv rec"><h3>✅ نقاط القوة</h3><p>سبتمبر في الاستراتيجي (81.8% كأعلى نسبة) وتحسّن الموارد البشرية المتواصل في أكتوبر.</p></div>
+</div>
+</section>
+
+<section id="rec">
+<div class="bn rv" style="--i:url(images/office-meeting.jpg)"><b><small>خارطة الطريق</small>من التوصية إلى التنفيذ</b></div>
+<h2 class="rv">التوصيات</h2><p class="sub rv">إجراءات عملية قابلة للقياس</p>
+<div class="grid">
+<div class="card rv rec"><h3>1) سجل حضور موحّد</h3><p>نموذج رقمي واحد لكل اجتماع يتضمن التاريخ والحضور والغياب والسبب، وتسجيله خلال 24 ساعة.</p></div>
+<div class="card rv rec"><h3>2) جدول ثابت للاجتماعات</h3><p>يوم ووقت ثابتان أسبوعياً مع تذكير تلقائي قبل 24 ساعة وقبل ساعة.</p></div>
+<div class="card rv rec"><h3>3) مستهدف حضور ≥ 75%</h3><p>هدف شهري لكل قطاع، مع مراجعة أسبوعية للنتائج ومناقشة الاجتماعات التي دون 50%.</p></div>
+<div class="card rv rec"><h3>4) توثيق أسباب الغياب</h3><p>تصنيف الأسباب (عذر، تعارض، عدم إبلاغ) لمعالجة الجذر لا الأعراض.</p></div>
+<div class="card rv rec"><h3>5) أجندة مختصرة ومحاضر</h3><p>أجندة قبل الاجتماع بيوم ومحضر موجز بعده، لرفع قيمة الحضور.</p></div>
+<div class="card rv rec"><h3>6) لوحة متابعة شهرية</h3><p>تحديث هذا التقرير شهرياً ببيانات كاملة ومقارنة بالأشهر السابقة.</p></div>
+</div>
+</section>
+
+<section id="plan">
+<div class="bn rv" style="--i:url(images/building.jpg)"><b><small>الخطة</small>نحو أداء مؤسسي أقوى</b></div>
+<h2 class="rv">خطة التحسين المقترحة</h2><p class="sub rv">تقدّم متوقع نحو المستهدف (توضيحي، وليس بيانات فعلية)</p>
+<div class="two">
+<div class="card rv"><div class="tl">
+<div><b>الأسبوع 1</b><p>توحيد نموذج التسجيل وتصحيح التواريخ المكررة.</p></div>
+<div><b>الأسبوع 2</b><p>تفعيل التذكيرات التلقائية وإعلان جدول ثابت.</p></div>
+<div><b>الأسبوع 3–4</b><p>متابعة أسباب الغياب والتواصل مع الأعضاء الأقل حضوراً.</p></div>
+<div><b>نهاية الشهر</b><p>تقرير مقارنة وقياس الوصول إلى 75%.</p></div></div></div>
+<div class="card rv" id="prog"></div>
+</div>
+</section>
+
+<section id="media">
+<h2 class="rv">الوسائط والصور</h2><p class="sub rv">فيديوهات تعمل تلقائياً ومعرض صور لبيئة العمل والاجتماعات (اضغط على أي صورة لتكبيرها)</p>
+<div class="vg rv"><video autoplay muted loop playsinline src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"></video><video autoplay muted loop playsinline src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"></video></div><br><div class="gal rv" id="gal"></div>
+</section>
+
+<section id="notes">
+<h2 class="rv">ملاحظات على البيانات</h2>
+<div class="card rv"><ul style="padding-right:20px">
+<li>وصلت البيانات مكررة في الرسائل، وتم اعتماد نسخة واحدة.</li>
+<li>تاريخ 23/8/2026 مكرر في الاستراتيجي (البند 2 و4) وبلا أرقام.</li>
+<li>تاريخ 23/7/2027 اعتُبر خطأً مطبعياً وتُرك دون أرقام.</li>
+<li>الاجتماعات بلا أرقام لا تدخل في نسب الحضور، لكنها تُحصى كاجتماعات منعقدة.</li>
+<li>اجتماعات يوليو بالموارد البشرية (7، 13، 20) وأغسطس (17) بلا أرقام، وكذلك البند الثاني من سبتمبر.</li>
+</ul></div></section>
+
+<div class="lb" id="lb"><img alt=""></div>
+<footer>إعداد م. السيد الجوهري السيد · المساعدة: الاء فوزي · أكتوبر 2026</footer>
+
+<script>
+const SP=[["5/8",2,3],["24/8",1,3],["28/8",3,2],["8/9",9,2],["10/9",7,3],["18/9",6,4],["25/9",5,5],["2/10",8,14],["5/10",5,17],["23/10",6,4],["24/7",1,4]];
+const SPO=["24/7","5/8","24/8","28/8","8/9","10/9","18/9","25/9","2/10","5/10","23/10"];
+const HR=[["19/9",10,5],["28/9",7,8],["5/10",3,10],["16/10",5,10],["19/10",7,8],["20/10",7,7],["23/10",9,6]];
+const pc=(a,b)=>a/(a+b)*100, col=p=>p>=70?"var(--g)":p>=45?"var(--y)":"var(--r)";
+const $=id=>document.getElementById(id);
+const spS=SPO.map(d=>SP.find(x=>x[0]==d));
+// ticker
+$("tk").innerHTML=[["حضور الاستراتيجي","46.5%","dn"],["حضور الموارد البشرية","47.1%","up"],["أفضل اجتماع 8/9","81.8%","up"],["أقل اجتماع 5/10","22.7%","dn"],["الموارد البشرية 23/10","60%","up"],["الاستراتيجي أكتوبر","35.2%","dn"],["هدف الحضور","75%","up"]].map(x=>`<span class="${x[2]}">${x[2]=="up"?"▲":"▼"} ${x[0]}: ${x[1]}</span>`).join("");
+// KPIs
+const K=[["📊",18,"اجتماعات بأرقام حضور","",0],["📅",37,"اجتماعات مدرجة بالقائمة","",0],["📈",46.5,"حضور الاستراتيجي","%",1],["📉",47.1,"حضور الموارد البشرية","%",1],["🏆",81.8,"أعلى نسبة (8/9)","%",1],["⚠️",22.7,"أدنى نسبة (5/10)","%",1]];
+$("kpis").innerHTML=K.map(k=>`<div class="card kpi rv"><span class="em">${k[0]}</span><div class="n" data-v="${k[1]}" data-d="${k[4]}">0</div><div class="t">${k[2]}</div></div>`).join("");
+// bars
+$("spBars").innerHTML=spS.map(r=>{const p=pc(r[1],r[2]);return `<div class="col"><em style="color:${col(p)}">${p.toFixed(0)}%</em><i style="--h:${p*2.1}px;background:linear-gradient(${col(p)},#ffffff22)"></i><u>${r[0]}</u></div>`}).join("");
+$("hrBars").innerHTML=HR.map(r=>{const t=r[1]+r[2];return `<div class="col"><em>${t}</em><div class="stk" style="--h:${t*14}px"><s style="background:var(--r);height:${r[2]/t*100}%">${r[2]}</s><s style="background:var(--g);height:${r[1]/t*100}%">${r[1]}</s></div><u>${r[0]}</u></div>`}).join("");
+// tables
+function tbl(id,rows){$(id).innerHTML="<tr><th>التاريخ</th><th>حضور</th><th>غياب</th><th>النسبة</th><th>المؤشر</th><th>التقييم</th></tr>"+rows.map(r=>{const p=pc(r[1],r[2]);const t=p>=70?["ممتاز","t-g"]:p>=45?["متوسط","t-y"]:["ضعيف","t-r"];return `<tr><td>${r[0]}/2026</td><td class="up">${r[1]}</td><td class="dn">${r[2]}</td><td>${p.toFixed(1)}%</td><td><div class="pb"><b style="--w:${p}%;--bs:${10000/p}%"></b></div></td><td><span class="tag ${t[1]}">${t[0]}</span></td></tr>`}).join("")}
+tbl("spT",spS);tbl("hrT",HR);
+// donuts
+function donut(id,a,b){const T=a+b,L=2*Math.PI*45,x=a/T*L;$(id).innerHTML=`<circle cx="60" cy="60" r="45" stroke="#ff5d73" style="stroke-dasharray:${L} 0"/><circle cx="60" cy="60" r="45" stroke="#22d3a0" data-d="${x} ${L}"/><text x="60" y="66" transform="rotate(90 60 60)" text-anchor="middle" fill="#fff" font-size="20" font-weight="700">${(a/T*100).toFixed(1)}%</text>`}
+donut("spD",53,61);donut("hrD",48,54);
+// line
+const mS=[["يوليو",20],["أغسطس",42.9],["سبتمبر",65.9],["أكتوبر",35.2]],mH=[null,null,["سبتمبر",56.7],["أكتوبر",43.1]];
+const X=i=>80+i*180,Y=v=>260-v*2.3;
+let g="";[0,25,50,75,100].forEach(v=>g+=`<line x1="50" x2="660" y1="${Y(v)}" y2="${Y(v)}" stroke="#222c55"/><text x="10" y="${Y(v)+4}">${v}%</text>`);
+mS.forEach((m,i)=>g+=`<text x="${X(i)-18}" y="285">${m[0]}</text>`);
+g+=`<path stroke="#4f8cff" d="M${mS.map((m,i)=>X(i)+","+Y(m[1])).join(" L")}"/><path stroke="#ffc857" d="M${X(2)},${Y(56.7)} L${X(3)},${Y(43.1)}"/>`;
+mS.forEach((m,i)=>g+=`<circle cx="${X(i)}" cy="${Y(m[1])}" r="6" fill="#4f8cff"/><text x="${X(i)-12}" y="${Y(m[1])-12}" fill="#fff">${m[1]}%</text>`);
+[[2,56.7],[3,43.1]].forEach(a=>g+=`<circle cx="${X(a[0])}" cy="${Y(a[1])}" r="6" fill="#ffc857"/>`);
+$("ln").innerHTML=g;
+$("mon").innerHTML=[["يوليو","20%","dn","الاستراتيجي: اجتماع واحد مسجّل فقط"],["أغسطس","42.9%","dn","الاستراتيجي: 3 اجتماعات مسجّلة"],["سبتمبر","65.9% / 56.7%","up","الاستراتيجي / الموارد البشرية"],["أكتوبر","35.2% / 43.1%","dn","الاستراتيجي / الموارد البشرية"]].map(m=>`<div class="card rv kpi"><span class="em">${m[2]=="up"?"📈":"📉"}</span><div class="t">${m[0]}</div><div class="n ${m[2]}" style="font-size:28px">${m[1]}</div><div class="t">${m[3]}</div></div>`).join("");
+// progress
+$("prog").innerHTML="<h3>التقدم نحو هدف 75%</h3><br>"+[["الاستراتيجي (الحالي)",46.5],["الموارد البشرية (الحالي)",47.1],["أحدث اجتماع موارد بشرية",60],["الهدف",75]].map(p=>`<p>${p[0]} — ${p[1]}%</p><div class="pb"><b style="--w:${p[1]}%;--bs:${10000/p[1]}%"></b></div><br>`).join("");
+// media
+const LOC=[["building","مقرّ العمل","بيئة مؤسسية حديثة"],["meeting-room","قاعة الاجتماعات","مساحة للحوار واتخاذ القرار"],["strategy","التخطيط الاستراتيجي","أفكار تتحول إلى خطط"],["team","العمل الجماعي","نقاش مفتوح بين الفريق"],["office-meeting","اجتماع الإدارة","قيادة تتابع وتوجّه"]];
+const REM=[["1551288049-bebda4e38f71","تحليل البيانات"],["1460925895917-afdab827c52f","لوحات المتابعة"],["1454165804606-c3d57bc86b40","التقارير والرسوم"],["1556761175-5973dc0f32e7","اجتماع تخطيط"],["1542744173-8e7e53415bb0","عرض تقديمي"],["1521737604893-d14cc237f11d","فريق العمل"],["1553877522-43269d4ea984","اجتماع أعمال"]];
+$("gal").innerHTML=LOC.map(m=>`<figure><img src="images/${m[0]}.jpg" alt="${m[1]}"><figcaption>${m[1]}</figcaption></figure>`).join("")+REM.map(m=>`<figure><img loading="lazy" src="https://images.unsplash.com/photo-${m[0]}?w=700&q=70" alt="${m[1]}" onerror="this.parentNode.remove()"><figcaption>${m[1]}</figcaption></figure>`).join("");
+$("gal").onclick=e=>{const i=e.target.closest("figure img");if(i){$("lb").firstChild.src=i.src;$("lb").classList.add("on")}};$("lb").onclick=()=>$("lb").classList.remove("on");
+// slider
+const sl=$("sl");let cur=0;
+LOC.forEach((m,i)=>{const d=document.createElement("div");d.className="s";d.style.backgroundImage=`url(images/${m[0]}.jpg)`;sl.insertBefore(d,sl.firstChild);$("dt").insertAdjacentHTML("beforeend",`<i data-i="${i}"></i>`)});
+const sd=[...sl.querySelectorAll(".s")].reverse(),dts=[...$("dt").children];
+function go(n){cur=n%LOC.length;sd.forEach((d,i)=>d.classList.toggle("on",i==cur));dts.forEach((d,i)=>d.classList.toggle("on",i==cur));$("cp").innerHTML=`${LOC[cur][1]}<small>${LOC[cur][2]}</small>`;const p=$("pg");p.style.transition="none";p.style.width="0";void p.offsetWidth;p.style.transition="width 5s linear";p.style.width="100%"}
+$("dt").onclick=e=>e.target.dataset.i&&go(+e.target.dataset.i);go(0);setInterval(()=>go(cur+1),5000);
+document.querySelectorAll("h2.rv").forEach((h,i)=>h.classList.add(i%2?"l":"r"));
+// reveal + counters
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add("in");e.target.querySelectorAll("[data-v]").forEach(n=>{const T=+n.dataset.v,D=+n.dataset.d;let s=null;const f=t=>{s=s||t;const k=Math.min((t-s)/1600,1);n.textContent=(T*k).toFixed(D)+(D?"%":"");k<1&&requestAnimationFrame(f)};requestAnimationFrame(f)});e.target.querySelectorAll("[data-d]:not([data-v])").forEach(c=>c.style.strokeDasharray=c.dataset.d);io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll(".rv").forEach(e=>io.observe(e));
+addEventListener("scroll",()=>$("bar").style.width=scrollY/(document.body.scrollHeight-innerHeight)*100+"%");
+// floating emojis
+setInterval(()=>{const e=document.createElement("div");e.className="float";e.textContent=["📈","📉","⬆️","⬇️","💹","📊","✅"][Math.random()*7|0];e.style.left=Math.random()*95+"vw";e.style.top="100vh";document.body.appendChild(e);setTimeout(()=>e.remove(),7000)},1400);
+
+// particles
+const pc2=$("pc"),cx=pc2.getContext("2d");let P=[];
+function rs(){pc2.width=innerWidth;pc2.height=innerHeight;P=Array.from({length:Math.min(70,innerWidth/14)},()=>({x:Math.random()*pc2.width,y:Math.random()*pc2.height,vx:Math.random()-.5,vy:Math.random()-.5}))}rs();addEventListener("resize",rs);
+(function pf(){cx.clearRect(0,0,pc2.width,pc2.height);P.forEach((p,i)=>{p.x=(p.x+p.vx+pc2.width)%pc2.width;p.y=(p.y+p.vy+pc2.height)%pc2.height;cx.fillStyle="#7aa5ff";cx.fillRect(p.x,p.y,2,2);for(let j=i+1;j<P.length;j++){const d=Math.hypot(p.x-P[j].x,p.y-P[j].y);if(d<120){cx.strokeStyle=`rgba(79,140,255,${.25-d/500})`;cx.beginPath();cx.moveTo(p.x,p.y);cx.lineTo(P[j].x,P[j].y);cx.stroke()}}});requestAnimationFrame(pf)})();
+// cursor glow + tilt
+addEventListener("mousemove",e=>{const g=$("gl");g.style.left=e.clientX+"px";g.style.top=e.clientY+"px"});
+document.addEventListener("mousemove",e=>{const c=e.target.closest&&e.target.closest(".card");if(!c)return;const r=c.getBoundingClientRect();c.style.transform=`perspective(700px) rotateY(${((e.clientX-r.left)/r.width-.5)*8}deg) rotateX(${-((e.clientY-r.top)/r.height-.5)*8}deg) translateY(-4px)`});
+document.addEventListener("mouseout",e=>{const c=e.target.closest&&e.target.closest(".card");if(c)c.style.transform=""});
+// live gauges, stocks, pulse
+$("eq").innerHTML=Array.from({length:16},(_,i)=>`<i style="animation-delay:${i*.09}s;animation-duration:${.6+i%5*.15}s"></i>`).join("");
+const base={1:46.5,2:47.1};
+setInterval(()=>[1,2].forEach(k=>{const v=base[k]+(Math.random()-.5)*5;$("n"+k).style.transform=`rotate(${v*1.8-90}deg)`;$("v"+k).textContent=v.toFixed(1)+"%";$("v"+k).className="fx "+(v>=base[k]?"up":"dn")}),1500);
+const ST=[["استراتيجي سبتمبر",65.9],["استراتيجي أكتوبر",35.2],["موارد بشرية 23/10",60],["موارد بشرية 5/10",23.1],["الهدف",75]];
+setInterval(()=>$("stk").innerHTML=ST.map(x=>{const d=(Math.random()-.5)*3,v=x[1]+d;return `<p class="${d>=0?"up":"dn"}">${d>=0?"▲":"▼"} ${x[0]}: <b>${v.toFixed(1)}%</b></p>`}).join(""),1200);
+const lc=$("lv"),lx=lc.getContext("2d");lc.width=500;lc.height=150;let ys=Array(100).fill(75),t=0;
+(function lf(){t+=.08;ys.push(Math.max(10,Math.min(140,ys[ys.length-1]+(Math.random()-.5)*16+Math.sin(t)*2)));ys.shift();lx.clearRect(0,0,500,150);lx.beginPath();ys.forEach((y,i)=>lx[i?"lineTo":"moveTo"](i*5,y));lx.strokeStyle="#22d3a0";lx.lineWidth=2.5;lx.shadowColor="#22d3a0";lx.shadowBlur=10;lx.stroke();setTimeout(()=>requestAnimationFrame(lf),50)})();
+</script>
+</body>
+</html>
